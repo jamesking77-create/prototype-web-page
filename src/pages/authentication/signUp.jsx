@@ -8,7 +8,7 @@ import GoogleLogo from "../../assets/images/google-logo-9822.png";
 import userImage from "../../assets/svgs/saly.svg";
 import logo from "../../assets/images/6537232-fotor-bg-remover-2024041882634.png";
 import "../../styles/signUP.css";
-import { AGENT_CODE } from "../../utils/constant/const";
+import { AGENT_CODE, STATIC_CODE } from "../../utils/constant/const";
 import md5 from "md5";
 
 const SignUpPage = () => {
@@ -53,7 +53,7 @@ const SignUpPage = () => {
       await validationSchema.validate(formData, { abortEarly: false });
 
       const agentCode = AGENT_CODE;
-      const static_token = "eyJyNzMyZTEzNGMyMTg5NTEiiOjE1ODAzODQyNTA3MDN9";
+      const static_token = STATIC_CODE;
       const requestType = "REGT";
       const securityKey = md5(agentCode) + "|" + static_token;
 
