@@ -1,0 +1,23 @@
+#dash-lower-section{
+  
+    height: 60%;
+    
+}
+
+#dash-body{
+    height: 92%;
+}
+
+@media screen and (max-width: 506px) {
+    #lower-box2{
+        
+        height: fit-content;
+    }
+
+    #dash-lower-section{
+  
+        height: fit-content;
+        
+    }
+    
+}

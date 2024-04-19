@@ -1,0 +1,21 @@
+.search-bar {
+    height: 16px;
+    padding: 12px;
+    gap: 8px
+}
+  
+#home-text{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    
+}
+
+#topnav-form{
+    margin-left: 30rem;
+    
+}
+
+#topnav-container{
+    border-bottom: solid 2pt rgb(230, 228, 228);
+}
