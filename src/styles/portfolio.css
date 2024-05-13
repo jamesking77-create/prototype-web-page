@@ -11,10 +11,10 @@
   justify-content: center;
   letter-spacing: 1px;
   line-height:1;
-  color: #f7a307
+  
 }
 
-h1 {
+.myname {
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
   background-size: cover;
   color: transparent;
