@@ -1,7 +1,0 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
-@import '../styles/Authentication.css';
-@import '../styles/font.css';
-@import '../styles/sidebar.css';
