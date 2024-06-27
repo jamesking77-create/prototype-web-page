@@ -1,14 +1,12 @@
+import './App.css';
+import Homepage from './pages/authorization/homepage';
 
-import './App.css'
-import Portfolio from "./pages/authorization/portfolio";
 
 function App() {
-
   return (
-    <>
-      <Portfolio/>
-    </>
-  )
+    <div className="App">
+      <Homepage/>
+    </div>
+  );
 }
-
-export default App
+export default App;

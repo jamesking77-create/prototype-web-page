@@ -6,7 +6,7 @@ import bime from "../../assets/images/Untitled design (2).png"
 const Gallery = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-      {/* Box 1 */}
+     
       <div className="bg-gray-500 rounded-lg overflow-hidden">
         <div className="p-4">
           <h2 className="text-lg font-bold mb-2">COOPERA</h2>
@@ -19,7 +19,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* Box 2 */}
+      
       <div className="bg-gray-500 rounded-lg overflow-hidden">
         <div className="p-4">
           <h2 className="text-lg font-bold mb-2">MRS 1.0</h2>
@@ -32,7 +32,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* Box 3 */}
+     
       <div className="bg-gray-500 rounded-lg overflow-hidden">
         <div className="p-4">
           <h2 className="text-lg font-bold mb-2">SPARR</h2>
@@ -45,7 +45,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* Box 4 */}
+    
       <div className="bg-gray-500 rounded-lg overflow-hidden">
         <div className="p-4">
           <h2 className="text-lg font-bold mb-2">BIME.</h2>

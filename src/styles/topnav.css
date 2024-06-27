@@ -1,21 +1,21 @@
-.search-bar {
-    height: 16px;
-    padding: 12px;
-    gap: 8px
-}
+#navtext{
+    color: #ffffff6c;
+    font-size: large;
   
-#home-text{
-    font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: smaller;
-    
 }
 
-#topnav-form{
-    margin-left: 30rem;
-    
-}
-
-#topnav-container{
-    border-bottom: solid 2pt rgb(230, 228, 228);
-}
+.tcontainer {
+    position: relative;
+  }
+  
+  .nav-button {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-button-text {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
