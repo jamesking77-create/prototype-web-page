@@ -1,8 +1,29 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
+import '../../styles/sectionStyle.css'
 
 const BottomSection = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    const handleScroll = () => {
+      if (section) {
+        const topPosition = section.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
+        if (topPosition < screenHeight * 0.75) {
+          section.classList.add('slide-up');
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="container mx-auto my-8 px-4">
+    <div ref={sectionRef} className="container mx-auto my-8 px-4 section-container">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full p-6">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800">

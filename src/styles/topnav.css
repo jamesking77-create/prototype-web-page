@@ -1,21 +1,8 @@
-#navtext{
-    color: #ffffff6c;
-    font-size: large;
-  
+.nav-link{
+  border-bottom:solid 2pt black;
 }
 
-.tcontainer {
-    position: relative;
-  }
-  
-  .nav-button {
-    position: relative;
-    display: inline-block;
-    transition: transform 0.2s ease;
-  }
-  
-  .nav-button-text {
-    display: inline-block;
-    transition: transform 0.2s ease;
-  }
-  
+.nav-link:hover{
+  color: blue;
+  border-bottom:solid 2pt blue;
+}
